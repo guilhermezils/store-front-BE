@@ -32,8 +32,7 @@ ActiveRecord::Schema.define(version: 2021_06_11_033542) do
 
   create_table "scores", force: :cascade do |t|
     t.string "name"
-    t.string "composer"
-    t.integer "catalog"
+    t.string "catalog"
     t.integer "price"
     t.integer "quantity"
     t.string "cover"
