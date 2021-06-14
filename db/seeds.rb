@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Score.create(catalog:"BSC1011", name:"Scale Book", price:20, quantity:34, cover:"storage/COVERS/Scale and Exercises for Double Bass 3rd Edition.jpg")
+Score.create(catalog:"BSC1011", name:"Scale Book", price:20, quantity:34, cover:"storage/COVERS/ScalesBook.jpg")
 Score.create(catalog:"BSC2014", name:"Sonata in G minor - Henry Eccles", price:12, quantity:19, cover:"storage/COVERS/Eccles Sonata.jpg")
 Score.create(catalog:"BSC4011", name:"Three Duos for Double Bass - Thomas Fredrickson", price:10, quantity:41, cover:"storage/COVERS/three duos for Double bass - Thomas fredrickson.jpg")
 Score.create(catalog:"BSC2111", name:"Elegy  - Bottesini", price:10, quantity:16, cover:"storage/COVERS/Elegy - Bottesini.jpg")
