@@ -1,13 +1,12 @@
 Rails.application.routes.draw do
+ 
+  resources :carts
   resources :scores
-  namespace :api do
-    namespace :v1 do
-      resources :users, only: [:create, :index]
-      post '/login', to: 'auth#create'
-      # post '/login', to: 'users#login'
-      get '/profile', to: 'users#profile'
-    end
-  end
+  resources :users, only: [:create, :index]
+     
+      post '/login', to: 'users#login'
+      # get '/profile', to: 'users#profile'
+   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
 
