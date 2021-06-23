@@ -39,7 +39,15 @@ Score.create(catalog:"BSC2017", name:"Gavotte - Joseph-Antoine Lorenziti", price
 Score.create(catalog:"BSC2009", name:"Concerto for Double Bass and Piano - Reignald Barret-Ayres", price:15, quantity:2, cover:"https://static.wixstatic.com/media/bcc0d9_12615249486f418eb7ce5c765852c47c~mv2.jpg/v1/fill/w_1000,h_1334,al_c,q_85,usm_0.66_1.00_0.01/bcc0d9_12615249486f418eb7ce5c765852c47c~mv2.jpg")
 
 
+User.create(username: "123123", password: "123123")
+User.create(username: "456456", password: "456456")
 
+
+#Cart 
+Cart.create(user_id: 1, score_id: 1)
+Cart.create(user_id: 1, score_id: 2)
+Cart.create(user_id: 2, score_id: 1)
+Cart.create(user_id: 2, score_id: 2)
 
 
 ###Original DB with pictures inside the BE folder
