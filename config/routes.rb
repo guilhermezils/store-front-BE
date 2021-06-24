@@ -2,7 +2,7 @@ Rails.application.routes.draw do
  
   resources :carts
   resources :scores
-  resources :users, only: [:create, :index]
+  resources :users
      
       post '/login', to: 'users#login'
       # get '/profile', to: 'users#profile'
